@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# works with Python 2.7 or PyPy for performance reasons
+
 import sys
 from xml.dom import pulldom
 #import html.parser

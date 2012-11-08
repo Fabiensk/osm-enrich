@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 from xml.dom import pulldom
 import xml.parsers.expat
