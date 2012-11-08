@@ -1,3 +1,7 @@
+# Copyright 2012 F a b i e n  SK
+# Contact : fabsk [.at.] free.fr
+
+# Licensed under the BSD license (see LICENSE.TXT)
 
 import sys
 from urllib.parse import quote

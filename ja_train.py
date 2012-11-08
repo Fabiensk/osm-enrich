@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+#
+# Copyright 2012 F a b i e n  SK
+# Contact : fabsk [.at.] free.fr
+
+# Licensed under the BSD license (see LICENSE.TXT)
 
 from xml.dom import pulldom
 import xml.parsers.expat

@@ -1,5 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# Copyright 2012 Fabien SK
+# Contact : contact [.at.] fabsk.eu
+
+# Licensed under the BSD license (see LICENSE.TXT)
+
+# works with Python 2.7 or PyPy for performance reasons
 
 import sys
 from xml.dom import pulldom
