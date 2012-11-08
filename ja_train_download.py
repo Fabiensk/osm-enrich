@@ -1,3 +1,7 @@
+# Copyright 2012 Fabien Shum-King
+# Contact : contact [.at.] fabsk.eu
+
+# Licensed under the BSD license (see LICENSE.TXT)
 
 import sys
 from urllib.parse import quote

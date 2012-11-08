@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+#
+# Copyright 2012 Fabien Shum-King
+# Contact : contact [.at.] fabsk.eu
+
+# Licensed under the BSD license (see LICENSE.TXT)
 
 from xml.dom import pulldom
 import xml.parsers.expat
