@@ -104,6 +104,13 @@ class Station:
 				wk_ja_pair[1].parentNode.removeChild(wk_ja_pair[1])
 				modified = True
 				logger.write("{0}:fixed from previous format\n".format(page_name))
+			if wk_ja_pair!=None and wk_ja_pair[0].startswith("ja:"):
+				page_name = wk_ja_pair[0]
+				# unquote if necessary
+				add_tag(self.node, "wikipedia", page_name)
+				wk_ja_pair[1].parentNode.removeChild(wk_ja_pair[1])
+				modified = True
+				logger.write("{0}:fixed from previous format 2\n".format(page_name))
 			else:
 				modified = self.fix_new_tag()
 		# update the modified flag if needed
